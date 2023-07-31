@@ -1,0 +1,87 @@
+
+
+
+/* =================
+        Form
+================= */
+body{
+    background-image: url(bg.avif);
+    background-size: cover;
+    background-repeat: no-repeat;}
+
+ h1{
+    margin-left: 65px;
+    margin-top: 50;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+#st1{ 
+    position: fixed;
+    background-color: rgba(240, 248, 255, 0.685);
+    width: 300px;
+    height: 400px;
+    position:relative;
+    display: block;
+    margin-left: 500px;
+    margin-bottom: 10px;
+    align-content: center;
+    border-radius: 10px;
+}
+input{ 
+    padding: 0;
+    padding-left: 50px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    height: 30px;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+input::placeholder{
+    color: rgba(128, 128, 128, 0.541);
+    }
+:hover-input{
+    border-color: rgba(0, 0, 0, 0.39);
+    }
+    :active-input{
+        background-color: rgba(128, 128, 128, 0.527);
+    }
+:-ms-input-placeholder{ scroll-padding-right: 20px;}
+#email{
+    background-image: url(mail-sharp.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#password{
+    background-image: url(lock-closed.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.man{
+    background: url(person-sharp.svg);
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+button{
+     border-radius: 3px;
+     background-color: rgba(128, 128, 128, 0.733);
+     height: 30px;
+     width: 220px;
+     position: relative;
+     margin-left: 50px;
+     color: white;
+
+}
+
+select{
+    color: rgba(0, 0, 0, 0.74);
+    width: 220px;
+    height: 25px;
+    text-align: center;
+    background-color:white;
+    border-radius: 5px;
+    border: none;
+    font-family: Arial, sans-serif;
+    text-transform: capitalize;
+    margin-left: 50px;
+}
